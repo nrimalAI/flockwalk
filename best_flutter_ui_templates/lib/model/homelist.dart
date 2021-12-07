@@ -15,7 +15,7 @@ class HomeList {
 
   static List<HomeList> homeList = [
     HomeList(
-      imagePath: 'assets/introduction_animation/flk_wlk.png',
+      imagePath: 'assets/introduction_animation/GetStarted.png',
       navigateScreen: IntroductionAnimationScreen(),
     ),
     HomeList(
