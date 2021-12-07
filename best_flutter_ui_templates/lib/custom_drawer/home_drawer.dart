@@ -35,7 +35,7 @@ class _HomeDrawerState extends State<HomeDrawer> {
       ),
       DrawerList(
         index: DrawerIndex.FeedBack,
-        labelName: 'FeedBack',
+        labelName: 'Flocker Feedback',
         icon: Icon(Icons.help),
       ),
       DrawerList(
@@ -43,11 +43,11 @@ class _HomeDrawerState extends State<HomeDrawer> {
         labelName: 'Invite Friend',
         icon: Icon(Icons.group),
       ),
-      DrawerList(
-        index: DrawerIndex.Share,
-        labelName: 'Rate the app',
-        icon: Icon(Icons.share),
-      ),
+      // DrawerList(
+      //   index: DrawerIndex.Share,
+      //   labelName: 'Rate the app',
+      //   icon: Icon(Icons.share),
+      // ),
       DrawerList(
         index: DrawerIndex.About,
         labelName: 'About Us',
@@ -104,7 +104,7 @@ class _HomeDrawerState extends State<HomeDrawer> {
                   Padding(
                     padding: const EdgeInsets.only(top: 8, left: 4),
                     child: Text(
-                      'Chris Hemsworth',
+                      'Lil Chicken',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         color: AppTheme.grey,

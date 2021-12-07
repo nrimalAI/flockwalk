@@ -42,7 +42,7 @@ class _HelpScreenState extends State<HelpScreen> {
               Container(
                 padding: const EdgeInsets.only(top: 16),
                 child: const Text(
-                  'It looks like you are experiencing problems\nwith our sign up process. We are here to\nhelp so please get in touch with us',
+                  'If you are experiencing problems with your \naccount or a specific flock walk user, we are here \nto help so please get in touch with us',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 16,

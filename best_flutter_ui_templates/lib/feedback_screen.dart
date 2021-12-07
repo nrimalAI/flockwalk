@@ -35,7 +35,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                   Container(
                     padding: const EdgeInsets.only(top: 8),
                     child: Text(
-                      'Your FeedBack',
+                      'Rate a flocker',
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -45,7 +45,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                   Container(
                     padding: const EdgeInsets.only(top: 16),
                     child: const Text(
-                      'Give your best time for this moment.',
+                      'Enter your feeback in the text box below.',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 16,
@@ -136,7 +136,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                 cursorColor: Colors.blue,
                 decoration: InputDecoration(
                     border: InputBorder.none,
-                    hintText: 'Enter your feedback...'),
+                    hintText: 'Enter @username and provide feeback...'),
               ),
             ),
           ),

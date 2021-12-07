@@ -146,7 +146,7 @@ class CenterNextButton extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'Login',
+                    'Sign Up',
                     style: TextStyle(
                       color: Color(0xff132137),
                       fontSize: 16,
