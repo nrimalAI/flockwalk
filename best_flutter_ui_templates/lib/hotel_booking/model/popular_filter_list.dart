@@ -36,7 +36,7 @@ class PopularFilterListData {
       isSelected: false,
     ),
     PopularFilterListData(
-      titleTxt: 'Singular Flocker',
+      titleTxt: 'Experienced Flockers',
       isSelected: false,
     ),
     PopularFilterListData(
@@ -48,7 +48,7 @@ class PopularFilterListData {
       isSelected: false,
     ),
     PopularFilterListData(
-      titleTxt: 'I am Chatty',
+      titleTxt: 'Socialites',
       isSelected: false,
     ),
   ];

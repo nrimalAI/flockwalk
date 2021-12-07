@@ -104,7 +104,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
           padding:
               const EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 8),
           child: Text(
-            'Select All That Apply:',
+            'What is your flock like?',
             textAlign: TextAlign.left,
             style: TextStyle(
                 color: Colors.grey,
@@ -217,7 +217,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
           padding:
               const EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 8),
           child: Text(
-            'Distance',
+            'Find flockers within:',
             textAlign: TextAlign.left,
             style: TextStyle(
                 color: Colors.grey,
@@ -247,7 +247,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
           padding:
               const EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 8),
           child: Text(
-            'Popular filters',
+            'Flocker Preferences:',
             textAlign: TextAlign.left,
             style: TextStyle(
                 color: Colors.grey,
@@ -342,7 +342,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
         Padding(
           padding: const EdgeInsets.all(16.0),
           child: Text(
-            'Total Number of Flockers',
+            'Total Number of Flockers:',
             textAlign: TextAlign.left,
             style: TextStyle(
                 color: Colors.grey,
