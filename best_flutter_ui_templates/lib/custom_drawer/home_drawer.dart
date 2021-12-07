@@ -50,7 +50,7 @@ class _HomeDrawerState extends State<HomeDrawer> {
       // ),
       DrawerList(
         index: DrawerIndex.About,
-        labelName: 'About Us',
+        labelName: 'Created: The Hindu Clan Pony',
         icon: Icon(Icons.info),
       ),
     ];

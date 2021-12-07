@@ -110,7 +110,7 @@ class HotelListView extends StatelessWidget {
                                                 ),
                                                 Expanded(
                                                   child: Text(
-                                                    '${hotelData!.dist.toStringAsFixed(1)} km to city',
+                                                    '${hotelData!.dist.toStringAsFixed(1)} km from you',
                                                     overflow:
                                                         TextOverflow.ellipsis,
                                                     style: TextStyle(
