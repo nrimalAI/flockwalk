@@ -104,7 +104,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
           padding:
               const EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 8),
           child: Text(
-            'Type of Accommodation',
+            'Select All That Apply:',
             textAlign: TextAlign.left,
             style: TextStyle(
                 color: Colors.grey,
@@ -217,7 +217,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
           padding:
               const EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 8),
           child: Text(
-            'Distance from city center',
+            'Distance',
             textAlign: TextAlign.left,
             style: TextStyle(
                 color: Colors.grey,
@@ -342,7 +342,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
         Padding(
           padding: const EdgeInsets.all(16.0),
           child: Text(
-            'Price (for 1 night)',
+            'Total Number of Flockers',
             textAlign: TextAlign.left,
             style: TextStyle(
                 color: Colors.grey,
