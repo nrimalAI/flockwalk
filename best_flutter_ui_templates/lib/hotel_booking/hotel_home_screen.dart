@@ -291,7 +291,7 @@ class _HotelHomeScreenState extends State<HotelHomeScreen>
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
                           Text(
-                            'Number of Flockers',
+                            'Flocker ratio:',
                             style: TextStyle(
                                 fontWeight: FontWeight.w100,
                                 fontSize: 16,
@@ -550,7 +550,7 @@ class _HotelHomeScreenState extends State<HotelHomeScreen>
             Expanded(
               child: Center(
                 child: Text(
-                  'Explore',
+                  'Find Your Flock',
                   style: TextStyle(
                     fontWeight: FontWeight.w600,
                     fontSize: 22,
